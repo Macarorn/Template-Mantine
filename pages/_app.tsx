@@ -1,6 +1,6 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { MantineProvider } from "@mantine/core";
+import { Flex, MantineProvider } from "@mantine/core";
 import About from "../src/Components/About";
 import SectionOne from "../src/Components/SectionOne";
 import Header from "../src/Components/Header";
@@ -10,6 +10,7 @@ import SectionFour from "../src/Components/SectionFour";
 import SectionFive from "../src/Components/SectionFive";
 import Footer from "../src/Components/Footer";
 import Botones from "../src/Components/Botones";
+import Rat from "../src/Components/Rating";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -24,7 +25,13 @@ export default function App(props: AppProps) {
       <SectionThree />
       <SectionOne />
       <SectionFive />
+
+      <Flex align="center" justify="center">
+        <Rat />
+      </Flex>
+
       <Footer />
+
       <Head>
         <title>Bubble Cat</title>
         <link rel="shortcut icon" href="/favicon.svg" />
