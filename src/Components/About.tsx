@@ -15,24 +15,24 @@ const About = () => {
 
   return (
     <section id="about">
-      <Container fluid>
+      <Container size="md" mt={50}>
         <Grid justify="center" align="center">
           <Grid.Col sm={12} md={8} lg={8}>
-            <div style={{ marginBottom: 25 }}>
+            <div style={{ marginBottom: 20 }}>
               <Text>
                 <MediaQuery
                   query="(max-width: 1200px)"
                   styles={{ fontSize: "2.5rem !important" }}
                 >
-                  <h1 className="title">Simple Mantine Template</h1>
+                  <h1>Este es un Template simple para Mantine</h1>
                 </MediaQuery>
               </Text>
             </div>
-            <div style={{ marginBottom: 25 }}>
-              <Text size="xl" color="black">
-                Simple showcase of this powerful and well implemented library
-                called{" "}
-                <Anchor href="https://mantine.dev/" target="_blank">
+            <div style={{ marginBottom: 50 }}>
+              <Text size="xl">
+                Ejemplificación simple de una librería poderosa y bien
+                implementada llamada{" "}
+                <Anchor href="https://mantine.dev/" target="_blank" color="yellow">
                   Mantine
                 </Anchor>
                 .
@@ -42,24 +42,34 @@ const About = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: 10,
-                marginBottom: 25,
+                gap: 20,
+                marginBottom: 50,
               }}
             >
-              <Chip value="typescript" checked color="Blue">
+              <Chip value="typescript" checked color="yellow">
                 Typescript
               </Chip>
-              <Chip value="hooks" checked color="Blue">
-                A lot of hooks
+              <Chip value="hooks" checked color="yellow">
+                Muchos Hooks
+              </Chip>
+              <Chip value="componentes-bonitos" checked color="yellow">
+                Componentes bonitos
+              </Chip>
+              <Chip value="hooks" checked color="yellow">
+                Responsive
               </Chip>
             </div>
-            <Button color="Blue" rightIcon={<MdArrowForward size={16} />}>
-              Tell me more
+            <Button color="yellow" rightIcon={<MdArrowForward size={16} />}>
+              Quiero explorar más
             </Button>
           </Grid.Col>
 
-          <Grid.Col sm={12} md={4} lg={4} className="center-mobile">
-            <Image src={require("../Images/lime-travel.png")} alt="Logo" />
+          <Grid.Col sm={12} md={4} lg={4}>
+            <Image
+              src="../lime-travel.png"
+              alt="With default placeholder"
+              withPlaceholder
+            />
           </Grid.Col>
         </Grid>
       </Container>

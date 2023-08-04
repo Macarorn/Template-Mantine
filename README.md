@@ -5,3 +5,6 @@ Este repositorio esta hecho en base a otros dos [Template](https://github.com/Gi
 ## Complementos
 
 Este template esta basado en typescript, NextJs, Mantine, MantineUi, node, react-icons y usa `yarn`.
+
+##Atribuciones
+->[Fav-icon](https://icon-icons.com/es/icono/gato/100317)
