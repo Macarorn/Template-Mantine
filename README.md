@@ -1,6 +1,6 @@
 # Mantine Next Template
 
-Este repositorio esta hecho en base a otros dos [Template](https://github.com/Giuseppetm/mantine-template), [Minimal template](https://github.com/mantinedev/next-pages-min-template) y personalizado a gusto propio entonces luego de clonarlo y de hacer el `yarn install` para correrlo se debe usar `yarn meow`. ;3
+Este repositorio esta hecho en base a otros dos [Template](https://github.com/Giuseppetm/mantine-template), [Minimal template](https://github.com/mantinedev/next-pages-min-template) y personalizado a gusto propio entonces luego de clonarlo y de hacer el `yarn install` para correrlo  el proyecto se usa `yarn dev`. 
 
 ## Complementos
 
