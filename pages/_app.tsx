@@ -11,6 +11,7 @@ import SectionFive from "../src/Components/SectionFive";
 import Footer from "../src/Components/Footer";
 import Botones from "../src/Components/Botones";
 import Rat from "../src/Components/Rating";
+import Components from "../src/Components/Components";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -18,6 +19,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Header />
+      <Components />
       <About />
       <Botones />
       <SectionTwo />
