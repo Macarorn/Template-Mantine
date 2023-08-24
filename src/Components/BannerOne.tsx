@@ -1,10 +1,9 @@
-import { Title, Text, Container, Grid, Image, Button } from "@mantine/core";
+import { Title, Text, Container, Grid, Image } from "@mantine/core";
 
-const SectionTwo = () => {
-  //const theme = useMantineTheme();
+const BannerOne = () => {
 
   return (
-    <section id="section-one">
+    <section>
       <Container mt={70}>
         <Grid justify="space-around" align="center">
           <Grid.Col xs={6} sm={8} md={8} lg={8}>
@@ -31,4 +30,4 @@ const SectionTwo = () => {
   );
 };
 
-export default SectionTwo;
+export default BannerOne;

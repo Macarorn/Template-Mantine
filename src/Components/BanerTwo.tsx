@@ -1,10 +1,9 @@
     import { Grid, Text, Container, Title, Image, Button } from "@mantine/core";
 
-    const SectionThree = () => {
-      //const theme = useMantineTheme();
+    const BanerTwo = () => {
 
       return (
-        <section id="section-two">
+        <section>
           <Container mt={80} style={{ marginBottom: 80 }}>
             <Grid justify="space-around">
               <Grid.Col xs={6} sm={4} md={4} lg={4}>
@@ -32,4 +31,4 @@
       );
     };
 
-    export default SectionThree;
+    export default BanerTwo;

@@ -1,10 +1,10 @@
 import { Accordion, Text, Container, Title, Badge } from "@mantine/core";
 
-const SectionFive = () => {
+const Desplegables = () => {
   //const theme = useMantineTheme();
 
   return (
-    <section id="section-one">
+    <section>
       <Container  mt={70}>
         <div>
           <div style={{ textAlign: "left" }}>
@@ -52,4 +52,4 @@ const SectionFive = () => {
   );
 };
 
-export default SectionFive;
+export default Desplegables;

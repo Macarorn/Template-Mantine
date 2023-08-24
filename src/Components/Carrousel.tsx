@@ -1,7 +1,7 @@
 import { Carousel } from "@mantine/carousel";
 import { Text, Container, useMantineTheme, Title } from "@mantine/core";
 
-const SectionOne = () => {
+const Carrousel = () => {
   const theme = useMantineTheme();
 
   const carouselContent = {
@@ -94,4 +94,4 @@ const SectionOne = () => {
   );
 };
 
-export default SectionOne;
+export default Carrousel;

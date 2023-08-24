@@ -2,16 +2,16 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { Flex, MantineProvider } from "@mantine/core";
 import About from "../src/Components/About";
-import SectionOne from "../src/Components/SectionOne";
 import Header from "../src/Components/Header";
-import SectionTwo from "../src/Components/SectionTwo";
-import SectionThree from "../src/Components/SectionThree";
-import SectionFour from "../src/Components/SectionFour";
-import SectionFive from "../src/Components/SectionFive";
 import Footer from "../src/Components/Footer";
 import Botones from "../src/Components/Botones";
 import Rat from "../src/Components/Rating";
 import Components from "../src/Components/Components";
+import BannerOne from "../src/Components/BannerOne";
+import Cards from "../src/Components/Cards";
+import BanerTwo from "../src/Components/BanerTwo";
+import Carrousel from "../src/Components/Carrousel";
+import Desplegables from "../src/Components/Desplegables";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -21,12 +21,12 @@ export default function App(props: AppProps) {
       <Header />
       <About />
       <Botones />
-      <SectionTwo />
+      <BannerOne />
       <Components />
-      <SectionFour />
-      <SectionThree />
-      <SectionOne />
-      <SectionFive />
+      <Cards />
+      <BanerTwo />
+      <Carrousel />
+      <Desplegables />
 
       <Flex align="center" justify="center">
         <Rat />

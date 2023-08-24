@@ -11,11 +11,11 @@ import {
   Group,
 } from "@mantine/core";
 
-const SectionFour = () => {
+const Cards = () => {
   const theme = useMantineTheme();
 
   return (
-    <section id="section-two">
+    <section>
       <Container mt={70}>
         <Text color="black" align="center">
           <Title order={1} style={{ marginBottom: 30 }}>
@@ -122,4 +122,4 @@ const SectionFour = () => {
   );
 };
 
-export default SectionFour;
+export default Cards;

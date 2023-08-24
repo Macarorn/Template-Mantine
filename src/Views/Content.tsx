@@ -1,8 +1,8 @@
 import About from "../Components/About";
-import SectionOne from "../Components/SectionOne";
-import SectionTwo from "../Components/SectionTwo";
-import SectionThree from "../Components/SectionThree";
-import SectionFour from "../Components/SectionFour";
+import SectionOne from "../Components/Carrousel";
+import SectionTwo from "../Components/BannerOne";
+import SectionThree from "../Components/BanerTwo";
+import SectionFour from "../Components/Cards";
 
 const Content = () => {
   return (
