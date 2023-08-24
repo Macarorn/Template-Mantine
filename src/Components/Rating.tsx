@@ -29,6 +29,7 @@ const getEmptyIcon = (value: number) => {
  //eslint-disable
 const getFullIcon = (value: number) => {
   const defaultProps = { size: rem(24) };
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const theme = useMantineTheme();
 
   switch (value) {
