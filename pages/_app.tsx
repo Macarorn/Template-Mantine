@@ -19,10 +19,10 @@ export default function App(props: AppProps) {
   return (
     <>
       <Header />
-      <Components />
       <About />
       <Botones />
       <SectionTwo />
+      <Components />
       <SectionFour />
       <SectionThree />
       <SectionOne />

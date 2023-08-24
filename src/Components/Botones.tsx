@@ -20,7 +20,7 @@ const Botones = () => {
             <Title order={1} style={{ marginTop: 10 }}>
               Grupo de Botones
             </Title>
-            <Text align="center" mb="25px">
+            <Text align="start" mb="25px" mt={20}>
               Podrás elegír entre variedad de botones para estilizar
             </Text>
           </Text>
