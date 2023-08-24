@@ -35,7 +35,7 @@ export default function App(props: AppProps) {
       <Footer />
 
       <Head>
-        <title>Bubble Cat</title>
+        <title>Mantine Template</title>
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
